@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-5vx@gw3w#s&lt^z5x+cv7rv!5-=fx240p7c1574mcay-=@qvro
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://thawing-wave-10844.herokuapp.com/','127.0.0.1']
 
 
 # Application definition
