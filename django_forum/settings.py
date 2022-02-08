@@ -16,6 +16,7 @@ from pickle import TRUE
 import cloudinary
 import cloudinary.uploader
 import cloudinary.api
+import whitenoise
 
 # from re import template
 
@@ -56,6 +57,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'django_forum.urls'
