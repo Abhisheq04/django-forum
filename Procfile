@@ -1,1 +1,1 @@
-web: gunicorn django_forum.wsgi
+Web: gunicorn Django_forum.wsgi
